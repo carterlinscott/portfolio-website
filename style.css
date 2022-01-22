@@ -1,0 +1,73 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloufare.com/ajax/libs/normalize/8.0.0/normailze.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+/*
+Colors used :
+Primary color (OldLace) : #FDF5E6;
+Primary text (DarkSlateGrey) : #2F4F4F;
+Secondary text (LightSlateGrey) : #778899;
+Secondary color (PeachPuff) : #FFDAB9;
+Secondary color (RosyBrown) : #BC8F8F;
+Tertiary color (Tan) : #D2B48C;
+Tertiary color (Wheat) : #F5DEB3;
+*/
+
+body {
+  background-color: #fdf5e6;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #2f4f4f
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #ffdab9;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /*visited link */
+  color: #778899;
+}
+a:hover,
+a:focus {
+  color: #bc8f8f;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #bc8f8f;
+}
+
+.button {
+  display: inline-block;
+  background-color: transparent;
+  color: #bc8f8f;
+  text-transform: uppercase;
+  border: 2px solid #bc8f8f;
+}
+.button:hover {
+  background color: #bc8f8f;
+  color: #ffdab9;
+}
