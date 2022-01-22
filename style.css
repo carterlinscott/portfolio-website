@@ -59,15 +59,35 @@ a:focus {
 a:active { /* selected link */
   color: #bc8f8f;
 }
+#index {
+  color: #d2b48c;
+}
+#about {
+  color: #d2b48c;
+}
+#contact {
+  color: #d2b48c;
+}
 
-.button {
+.button.contact {
   display: inline-block;
   background-color: transparent;
   color: #bc8f8f;
   text-transform: uppercase;
   border: 2px solid #bc8f8f;
 }
-.button:hover {
+.button.contact:hover {
+  background color: #bc8f8f;
+  color: #ffdab9;
+}
+.button.download {
+  display: inline-block;
+  background-color: transparent;
+  color: #bc8f8f;
+  text-transform: uppercase;
+  border: 2px solid #bc8f8f;
+}
+.button.download:hover {
   background color: #bc8f8f;
   color: #ffdab9;
 }
