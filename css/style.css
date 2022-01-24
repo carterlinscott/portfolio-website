@@ -58,6 +58,11 @@ p {
 img {
   width: 100%;
 }
+header {
+  background-color: #fdf5e6;
+  padding: 10px;
+  margin: 10px;
+}
 a {
   color: #ffdab9;
   text-decoration: none; /* No underlining */
