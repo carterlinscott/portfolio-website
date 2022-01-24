@@ -162,6 +162,10 @@ nav > ul > li > a:active { /* selected link */
   display: inline-block;
   width: 100%;
 }
-#logo {
+#header {
   box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+#about .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fdf5e6;
 }
