@@ -1,8 +1,3 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloufare.com/ajax/libs/normalize/8.0.0/normailze.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-
 /*
 Colors used :
 Primary color (OldLace) : #FDF5E6;
@@ -15,10 +10,10 @@ Tertiary color (Wheat) : #F5DEB3;
 */
 
 body {
-  background-color: #fdf5e6;
-  font-family: 'Darker Grotesque', sans-serif;
+  background-color: #ffffff;
+  font-family: 'Pompiere', cursive;
   font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
+  font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #2f4f4f
 }
@@ -28,12 +23,12 @@ h1, h2, h3, h4 {
 }
 h1 {
   font-size: 2.75em;
-  font-weight: 700;
+  font-weight: 400;
   color: #2f4f4f;
 }
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 400;
   color: #2f4f4f;
 }
 h3 {
@@ -52,12 +47,12 @@ span, p {
 }
 span {
   font-size: 1.15em;
-  font-weight: 300;
+  font-weight: 400;
   color: #2f4f4f;
 }
 p {
   font-size: 1.15em;
-  font-weight: 300;
+  font-weight: 400;
   color: #2f4f4f;
 }
 img {
