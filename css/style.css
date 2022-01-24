@@ -191,6 +191,10 @@ nav > ul > li > a:active { /* selected link */
     padding: 10px;
   }
 
+  #work img {
+    margin-top: 70px;
+  }
+
   .row:after {
     content: "";
     clear: both;
