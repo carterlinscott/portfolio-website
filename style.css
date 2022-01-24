@@ -44,6 +44,11 @@ h4 {
 img {
   width: 100%;
 }
+header {
+  background-color: #d2b48c;
+  padding: 10px;
+  margin: 10px;
+}
 a {
   color: #ffdab9;
   text-decoration: none; /* No underlining */
