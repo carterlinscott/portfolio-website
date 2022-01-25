@@ -15,7 +15,7 @@ Tertiary color (Wheat) : #F5DEB3;
 body {
   background-color: #ffffff;
   font-family: 'Pompiere', cursive;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 18px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #2f4f4f
@@ -91,6 +91,21 @@ a:active { /* selected link */
   color: #d2b48c;
 }
 
+.button {
+  display: inline-block;
+  background-color: #778899;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #fdf5e6;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button.hover {
+  opacity: 0.8;
+}
 .button.contact {
   display: inline-block;
   background-color: transparent;
@@ -218,4 +233,17 @@ nav > ul > li > a:active { /* selected link */
 /* X-large device */
 @media only screen and (min-width: 1440px){
 
+}
+
+@keyframes color-change {
+  0% {fill: #ffffe0;}
+  50% {fill: #ffff00;}
+  100% {fill: #ffd700;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
