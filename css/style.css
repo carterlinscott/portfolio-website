@@ -235,6 +235,12 @@ nav > ul > li > a:active { /* selected link */
 
 }
 
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 @keyframes color-change {
   0% {fill: #ffffe0;}
   50% {fill: #ffff00;}
