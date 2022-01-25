@@ -63,7 +63,6 @@ img {
 }
 header {
   background-color: #fdf5e6;
-  text-align: center;
   padding: 10px 0;
 }
 a {
@@ -145,14 +144,12 @@ a:active { /* selected link */
   text-align: center;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 nav > ul {
   list-style-type: none;
-  padding: 15px;
-}
-nav > ul > li {
-  display: inline-block;
+  padding: 0;
+  margin: 0px;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -171,6 +168,30 @@ nav > ul > li > a:focus {
 nav > ul > li > a:active { /* selected link */
   color: #bc8f8f;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
 #hero {
   background-color: #fdf5e6;
   padding: 10px 0;
@@ -185,7 +206,7 @@ nav > ul > li > a:active { /* selected link */
   border-bottom: 1px solid #fdf5e6;
 }
 /* Medium device */
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 641px){
   header{
     text-align: unset;
     padding: 20px 0 13px;
@@ -194,8 +215,20 @@ nav > ul > li > a:active { /* selected link */
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin: 1em 0;
   }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
   .col-md-6 {
     width: 50%;
@@ -222,7 +255,7 @@ nav > ul > li > a:active { /* selected link */
 }
 
 /* Large device */
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 641px){
   .container {
     max-width: 1200px;
     margin-left: auto;
