@@ -15,7 +15,7 @@ Tertiary color (Wheat) : #F5DEB3;
 body {
   background-color: #ffffff;
   font-family: 'Pompiere', cursive;
-  font-size: 18px; /* Sets the font size to 16px */
+  font-size: 20px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #2f4f4f
@@ -60,14 +60,13 @@ p {
 }
 img {
   width: 100%;
-  image-rendering: high-quality;
 }
 header {
   background-color: #fdf5e6;
   padding: 10px 0;
 }
 a {
-  color: #ffdab9;
+  color: #a36666;
   text-decoration: none; /* No underlining */
 }
 a:visited { /*visited link */
@@ -75,31 +74,31 @@ a:visited { /*visited link */
 }
 a:hover,
 a:focus {
-  color: #bc8f8f;
+  color: #a36666;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:active { /* selected link */
-  color: #bc8f8f;
+  color: #a36666;
 }
 #index {
-  color: #d2b48c;
+  color: #906a38;
 }
 #about {
-  color: #d2b48c;
+  color: #906a38;
 }
 #contact {
-  color: #d2b48c;
+  color: #906a38;
 }
 
 .button {
   display: inline-block;
   background-color: #ffffff;
-  font-weight: 400;
+  font-weight: 700;
   color: #778899;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #fdf5e6;
+  border-bottom: 3px solid #778899;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -109,24 +108,24 @@ a:active { /* selected link */
 .button.contact {
   display: inline-block;
   background-color: transparent;
-  color: #bc8f8f;
+  color: #a36666;
   text-transform: uppercase;
-  border: 2px solid #bc8f8f;
+  border: 2px solid #a36666;
 }
 .button.contact:hover {
-  background color: #bc8f8f;
-  color: #ffdab9;
+  background color: #a36666;
+  color: #503030;
 }
 .button.download {
   display: inline-block;
   background-color: transparent;
-  color: #bc8f8f;
+  color: #a36666;
   text-transform: uppercase;
-  border: 2px solid #bc8f8f;
+  border: 2px solid #a36666;
 }
 .button.download:hover {
-  background color: #bc8f8f;
-  color: #ffdab9;
+  background color: #a36666;
+  color: #503030;
 }
 
 /* Layout styling */
@@ -156,18 +155,18 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #d2b48c;
+  color: #906a38;
 }
 nav > ul > li > a:visited {
-  color: #bc8f8f;
+  color: #a36666;
 }
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
-  color: #bc8f8f;
+  color: #a36666;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 nav > ul > li > a:active { /* selected link */
-  color: #bc8f8f;
+  color: #a36666;
 }
 .navtoggle li:not(:last-child) {
   display: none;
@@ -206,13 +205,10 @@ nav > ul > li > a:active { /* selected link */
   padding-bottom: 25px;
   border-bottom: 1px solid #fdf5e6;
 }
-#weather h1, h2, p {
-  text-align: center;
-}
-#copyright p {
-  text-align: center;
-}
 #touch {
+  text-align: center;
+}
+#copyright {
   text-align: center;
 }
 
@@ -266,12 +262,16 @@ nav > ul > li > a:active { /* selected link */
 }
 
 /* Large device */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 2200px){
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+img {
+  width: 100%;
 }
 
 .berlin-illustration {
