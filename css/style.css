@@ -158,9 +158,6 @@ a:active { /* selected link */
 #hero h4 {
   text-align: center;
 }
-main {
-  padding-top: 56px;
-}
 .logo {
   max-width: 150px;
 }
@@ -173,9 +170,14 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
+  background-color: inherit;
   color: #906a38;
 }
 nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: inherit;
   color: #a36666;
 }
 nav > ul > li > a:hover,
@@ -216,8 +218,8 @@ nav > ul > li > a:active { /* selected link */
   display: inline-block;
   width: 100%;
 }
-#header {
-  box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.5);
+main {
+  padding-top: 56px;
 }
 #about .row {
   padding-bottom: 25px;
@@ -240,6 +242,10 @@ nav > ul > li > a:active { /* selected link */
   nav {
     width: auto;
     float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul {
     margin: 1em 0;
   }
 
