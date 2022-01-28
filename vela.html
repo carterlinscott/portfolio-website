@@ -11,26 +11,29 @@
   <link href="https://fonts.googleapis.com/css?family=Pompiere:400" rel="stylesheet">
   <!-- add you style.css file below that's in css directory -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- cdn link -->
+  <script src="https://kit.fontawesome.com/e6aa32bfe8.js" crossorigin="anonymous"></script>
 </head>
-  <body>
     <!-- For the header -->
-    <header>
-      <div id="header" class="container">
-        <div class="navtoggle" id="myNavtoggle">
-          <img class="logo" src="img/logo.jpg" alt="Carter Linscott" >
-        <nav>
-          <ul>
-            <li><a href="index.html" class="index" id="index">Work</a></li>
-            <li><a href="about.html" class="about" id="about">About</a></li>
-            <li><a href="files/cv.pdf" target="blank" id="resume">Resume</a></li>
-            <li><a href="contact.html" class="contact" id="contact">Contact</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
-          class="fas fa-bars"></i></a></li>
-          </ul>
-        </nav>
+    <body>
+      <header>
+        <div id="header" class="container">
+          <div class="navtoggle" id="myNavtoggle">
+          <picture>
+            <img src="img/logo.jpg" class="logo" alt="Carter Linscott">
+          </picture>
+            <nav>
+              <ul class="menu">
+                <li><a href="index.html" class="index" id="index">Work</a></li>
+                <li><a href="about.html" class="about" id="about">About</a></li>
+                <li><a href="files/cv.pdf" class="resume" id="resume">Resume</a></li>
+                <li><a href="contact.html" class="contact" id="contact">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
     <!-- For the project section -->
     <div class="container"><!-- open row that holds (2) columns for project -->
@@ -274,8 +277,8 @@
       </div><!-- end rows that holds (2) columns for project -->
 
     <!-- For the footer -->
-    <footer class="container">
-      <div id="copyright">
+    <footer id="copyright">
+      <div class="container">
         <p>Copyright Carter-Linscott 2022</p>
       </div>
     </footer>
