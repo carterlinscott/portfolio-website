@@ -86,6 +86,9 @@ a:active { /* selected link */
 #about {
   color: #906a38;
 }
+#resume {
+  color: #906a38;
+}
 #contact {
   color: #906a38;
 }
@@ -97,8 +100,10 @@ a:active { /* selected link */
   color: #778899;
   text-decoration: none;
   padding: 10px;
-  border-radius: 3px;
-  border-bottom: 3px solid #778899;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #e6e6e6, #ffffff);
+  box-shadow: 30px -30px 60px #d9d9d9, -30px 30px 60px #ffffff;
+  border: 2px solid #778899;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -135,7 +140,19 @@ a:active { /* selected link */
 }
 #work .row {
   padding-bottom: 25px;
-  border-bottom: 1px solid #fdf5e6;
+  border-bottom: 1px solid #bc8f8f;
+}
+#dunkin .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #bc8f8f;
+}
+#berlin .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #bc8f8f;
+}
+#donut .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #bc8f8f;
 }
 #hero h1 {
   text-align: center;
