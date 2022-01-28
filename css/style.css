@@ -101,7 +101,7 @@ a:active { /* selected link */
   text-decoration: none;
   padding: 10px;
   border-radius: 50px;
-  background: linear-gradient(45deg, #e6e6e6, #ffffff);
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
   box-shadow: 30px -30px 60px #d9d9d9, -30px 30px 60px #ffffff;
   border: 2px solid #778899;
   transition-duration: 0.2s;
@@ -204,7 +204,7 @@ nav > ul > li > a:active { /* selected link */
   padding: 10px 0;
   border-top: 1px solid rgba(255,255,255,0.8);
 }
-.navtoggle.responsive li:last-child { 
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 #hero {
