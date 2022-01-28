@@ -239,7 +239,7 @@ nav > ul > li > a:active { /* selected link */
     float: right;
     margin: 1em 0;
   }
- 
+
   nav > ul > li {
     display: inline-block;
   }
@@ -273,6 +273,10 @@ nav > ul > li > a:active { /* selected link */
 
   #about h3 {
     margin-top: 0;
+  }
+
+  #story img{
+    margin-top: 70px;
   }
 }
 
