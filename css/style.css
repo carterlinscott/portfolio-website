@@ -118,7 +118,6 @@ a:active { /* selected link */
   border: 2px solid #a36666;
 }
 .button.contact:hover {
-  background color: #a36666;
   color: #503030;
 }
 .button.download {
@@ -129,7 +128,6 @@ a:active { /* selected link */
   border: 2px solid #a36666;
 }
 .button.download:hover {
-  background color: #a36666;
   color: #503030;
 }
 
@@ -206,7 +204,7 @@ nav > ul > li > a:active { /* selected link */
   padding: 10px 0;
   border-top: 1px solid rgba(255,255,255,0.8);
 }
-.navtoggle.responsive li:last-child {
+.navtoggle.responsive li:last-child { 
   padding: 0 0 10px;
 }
 #hero {
