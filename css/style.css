@@ -218,9 +218,6 @@ nav > ul > li > a:active { /* selected link */
   display: inline-block;
   width: 100%;
 }
-main {
-  padding-top: 56px;
-}
 #about .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #fdf5e6;
