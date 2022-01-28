@@ -158,13 +158,16 @@ a:active { /* selected link */
 #hero h4 {
   text-align: center;
 }
+main {
+  padding-top: 56px;
+}
 .logo {
   max-width: 150px;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
-  margin: 0px;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
