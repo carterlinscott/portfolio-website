@@ -120,7 +120,7 @@ a:active { /* selected link */
   color: #a36666;
   text-transform: uppercase;
   background: #fdf5e6;
-  box-shadow: 5px 5px 0px #d9d9d9, -5px -5px 0px #fdf5e6;
+  box-shadow: 5px 5px 0px #a36666, -5px -5px 0px #fdf5e6;
   border: 1px solid #a36666;
 }
 .button.contact:hover {
