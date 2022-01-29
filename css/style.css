@@ -107,7 +107,7 @@ a:active { /* selected link */
   padding: 10px;
   border-radius: 35px;
   background: #ffffff;
-  box-shadow: 5px 5px 00px #d9d9d9, -5px -5px 0px #ffffff;
+  box-shadow: 5px 5px 0px #d9d9d9, -5px -5px 0px #ffffff;
   border: 1px solid #778899;
   transition-duration: 0.2s;
   transition-property: opacity;
@@ -117,10 +117,11 @@ a:active { /* selected link */
 }
 .button.contact {
   display: inline-block;
-  background-color: transparent;
   color: #a36666;
   text-transform: uppercase;
-  border: 2px solid #a36666;
+  background: #fdf5e6;
+  box-shadow: 5px 5px 0px #d9d9d9, -5px -5px 0px #fdf5e6;
+  border: 1px solid #a36666;
 }
 .button.contact:hover {
   color: #503030;
