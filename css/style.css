@@ -105,7 +105,7 @@ a:active { /* selected link */
   color: #778899;
   text-decoration: none;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 20px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
   box-shadow: 30px -30px 60px #d9d9d9, -30px 30px 60px #ffffff;
   border: 2px solid #778899;
