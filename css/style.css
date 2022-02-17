@@ -154,6 +154,10 @@ a:active { /* selected link */
   padding-bottom: 25px;
   border-bottom: 1px solid #bc8f8f;
 }
+#art .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #bc8f8f;
+}
 #berlin .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #bc8f8f;
